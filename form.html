@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 align="center">EVENT REGISTRATION</h1>
+  <form>
+    <fieldset>
+      <label for="name"> Name: </label>
+      <input type="text" id="name" name="name">
+      <br/>
+      <br/>
+  
+      <label for="emailId" > Email: </label>
+      <input placeholder="example@xyz.com" type="email" id="emailId" name="emailId">
+      <br/>
+      <br/>
+  
+      <label for="phoneNumber"> Phone Number: </label>
+      <input type="tel" id="phoneNumber" name="phoneNumber">
+      <br/>
+      <br/>
+
+      <label for="calender"> Date:</label>
+      <input type="datetime-local" id="calender" name="calender">
+      <br/>
+      <br/>
+      <section>
+        <span>Gender: </span>
+        <label for="male"> Male </label>
+        <input type="radio" id="male" name="gender">
+        <label for="female"> Female </label>
+        <input type="radio" id="female" name="gender">
+      </section>
+      <br/>
+      <br/>
+      
+      <section>
+        <label for="occupationType"> Occupation: </label>
+        <select name="occupationType" id="occupationType">
+          <option value="student">Student</option>
+          <option value="professional">Professional</option>
+          <option value="other">Other</option>
+        </select>
+      </section>
+      <br/>
+      <br/>
+  
+      <label for="age">Resume: </label>
+      <input type="file" id="resume">
+      <br/>
+      <br/>
+  
+      <label for="age"> Age: </label>
+      <input type="number" id="age" name="age" min="0" max="100">
+      <br/>
+      <br/>
+      
+      <fieldset>
+        
+        <legend>Topics of Interests</legend>
+          <label for="checkbox1"> HTML </label>
+          <input type="checkbox" id="checkbox1" name="checkbox1">    
+        
+          <label for="checkbox2"> CSS </label>
+          <input type="checkbox" id="checkbox2" name="checkbox2">
+  
+          <label for="checkbox3"> JS </label>
+          <input type="checkbox" id="checkbox3" name="checkbox3">
+  
+      </fieldset>
+      <br/>
+  
+      <fieldset>
+        
+        <legend>Availability</legend>
+          <label for="radiobutton1"> Part-Time </label>
+          <input type="radio" id="radiobutton1" name="radio"> 
+          <br/>
+        
+          <label for="radiobutton2"> Full-Time </label>
+          <input type="radio" id="radiobutton2" name="radio">
+        <br/>
+  
+      </fieldset>
+      
+      <label for="comments">Comment:</label>
+      <br/>
+      <textarea name="comments" id="comments" cols="30" rows="5" ></textarea>   
+      <br/>
+      <p align="center"><input type="submit" value="Register"></p> 
+      <!-- align attribute of the p tag shouldn't be used. -->
+   </fieldset> 
+  </form>
+  
+</body>
+</html>
